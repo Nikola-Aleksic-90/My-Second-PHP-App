@@ -23,7 +23,7 @@
   </tr>
   <tr>
     <td>&nbsp;</td>
-    <td><input type="submit"></td>
+    <td><input type="submit" value="Unesi podatke"></td>
   </tr>
 </table>
 
