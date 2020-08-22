@@ -17,7 +17,7 @@ $id = $_GET["id"];
 $sql = "DELETE FROM podaci WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Brisanje je uspesno";
+    echo header("location:Brisanje_korisnika.php");
 } else {
     echo "Greska prilikom brisanja: " . $conn->error;
 }
