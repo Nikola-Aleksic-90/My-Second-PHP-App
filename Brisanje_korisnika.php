@@ -11,6 +11,12 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+if (isset($_GET["message"])) {
+    if (($_GET["message"]) == "brisanje") {
+        echo "Podatak je obrisan <br><br>";
+    }
+}
+
 $sql = "SELECT id, ime, prezime, email FROM podaci";
 $result = $conn->query($sql);
 
