@@ -27,7 +27,8 @@ $sql = "INSERT INTO podaci (ime, prezime, email)
 VALUES ('$ime', '$prezime', '$email')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Uspesan unos u bazu podataka.";
+    $poslednji_id = $conn -> insert_id;
+    echo "Uspesan unos u bazu podataka. Podatak je zaveden pod ID brojem: " . $poslednji_id;
 } else {
     echo "Greska: " . $sql . "<br>" . $conn->error;
 }
