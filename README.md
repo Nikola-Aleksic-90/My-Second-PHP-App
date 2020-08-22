@@ -1,4 +1,9 @@
-# My-Second-PHP-App
+# SAJT JE ZAVRSEN I HOSTOVAN:
+
+https://phpisql.000webhostapp.com/index.php
+
+
+
 
 Cilj aplikacije je da korisnik sa stranice (aplikacije) DodavanjeKorisnika unese podatke (ime, prezime, email) i klikne na submit. Nakon toga, kroz Registracija fajl se uneti podaci prosledjuju dalje u MySQL bazu.
 
