@@ -33,7 +33,8 @@ $result = $conn->query($sql);
 	  <tr>
 		<td>ID</td>
 		<td><?php echo $row["id"]; ?></td>
-		<td><a href="Brisanje.php?id=<?php echo $row["id"] ?>">Izbrisi</a></td>
+		<td><a href="Brisanje.php?id=<?php echo $row["id"] ?>">Izbrisi</a>
+		<br><a href="Izmena.php?id=<?php echo $row["id"] ?>">Izmeni</a></td>
 	  </tr>
 	  <tr>
 		<td>Ime</td>
