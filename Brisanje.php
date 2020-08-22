@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 
 $id = $_GET["id"];
 
-// sql to delete a record
+// SQL upit za brisanje
 $sql = "DELETE FROM podaci WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
