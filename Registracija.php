@@ -20,7 +20,7 @@ $dbname = "BazaPodataka";   // naziv database-a koji sam napravio u phpmyadmin-u
 $conn = new mysqli($servername, $username, $password, $dbname);
 // provera konekcije
 if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("Konekcija nije uspela: " . $conn->connect_error);
 }
 
 $sql = "INSERT INTO podaci (ime, prezime, email)
